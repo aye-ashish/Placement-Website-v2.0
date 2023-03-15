@@ -20,6 +20,10 @@ body {
   overflow-x: hidden;
 }
 
+.hindiText{
+  color: white;
+}
+
 body,
 html {
   margin: 0px;
@@ -70,7 +74,7 @@ html {
 }
 
 .whyus {
-  background: #f6f6fa;
+  background: #00000071;
 }
 
 .lists li {
@@ -84,11 +88,23 @@ a {
 a:hover {
   color: rgb(0, 90, 181) !important;
 }
-
+.heading-abovetpo{
+  font-size: 125%;
+  font-family: 'Times New Roman', Times, serif;
+}
 .heading {
-  font-size: 383%;
+  font-size: 300%;
   font-weight: bold;
+  color: rgb(1,90,181);
   font-family: "Times New Roman", Times, serif;
+  text-align: start;
+}
+
+.heading-tpo {
+  font-size: 160%;
+  font-family: 'Times New Roman', Times, serif;
+  
+  font-weight: bold;;
 }
 
 h1,
@@ -97,7 +113,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Ariel", Times, serif;
 }
 
 h1 {
@@ -114,6 +130,7 @@ h2 {
   background-color: rgb(0, 90, 181);
   padding-top: 80px;
   text-align: center;
+  
 }
 
 .header_top-flex {
@@ -268,7 +285,7 @@ h2 {
 }
 
 #header .nav a:hover {
-  background-color: #204584;
+  background-color: #5d8ad7;
   color: white !important;
 }
 
@@ -395,9 +412,10 @@ a.brochure-link:hover {
 }
 
 #about .about-text {
-  width: 65%;
+  width: 85%;
   padding: 10px 50px;
-  font-family: "Times New Roman", Times, serif;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 2px;
 }
 
 #about .about-img {
@@ -496,12 +514,18 @@ a.brochure-link:hover {
   height: 50px;
   background-color: #204584;
   color: white;
-  font-family: "Times New Roman", Times, serif;
+  font-family: sans-serif;
   font-weight: 300;
   font-size: 25px;
   text-align: right;
   padding: 0px 30px;
   line-height: 50px;
+  text-align: start ;
+  border-radius: 2%;
+}
+
+.align .title-bar{
+  align-items: left;
 }
 
 .messagebox .content {
@@ -992,7 +1016,7 @@ table {
 }
 
 a:hover {
-  color: rgb(0, 0, 0) !important;
+  color: yellow !important;
 }
 .heading-footer {
   padding: 10px;
@@ -1013,7 +1037,7 @@ a:hover {
 }
 
 .flex-footer {
-  color: wheat;
+  color: white;
 }
 
 /* @media only screen and (min-width: 1000px) {
@@ -1026,7 +1050,7 @@ a:hover {
 .flex-footer > span {
   font-size: large;
   font-weight: bold;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .flex-footer > div {
@@ -1037,7 +1061,7 @@ a:hover {
 }
 
 .flex-footer > div > a:hover {
-  color: rgb(0, 0, 0);
+  color: yellow;
 }
 
 #footer-credits {
@@ -1435,6 +1459,7 @@ a:hover {
 
   .messagebox .title-bar {
     height: auto;
+    
   }
 
   .messagebox:last-of-type .title-bar {
@@ -1783,3 +1808,10 @@ p.awesome_line {
   padding: 3px 7px;
   border-radius: 30px;
 }
+
+/* .footer-subsection-map{
+  border-radius: 10%;
+} */
+
+
+
